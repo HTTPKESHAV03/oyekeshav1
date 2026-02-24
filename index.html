@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO Meta -->
+<meta name="description" content="Keshav Barapatre - BCA Graduate and Java Backend Developer specializing in Spring Boot, REST APIs, Data Structures & Algorithms.">
+<meta name="keywords" content="Java Developer, Spring Boot, Backend Developer, BCA Graduate, DSA, REST API">
+<meta name="author" content="Keshav Barapatre">
+
+<title>Keshav Barapatre | Java Backend Developer</title>
+
+<link rel="icon" type="image/png" href="favicon.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #0d1117;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --accent: #58a6ff;
+  --border: #21262d;
+}
+
+.light-mode {
+  --bg: #ffffff;
+  --text: #111111;
+  --muted: #555555;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  transition: 0.3s;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+.toggle-btn {
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--accent);
+}
+
+header {
+  padding: 100px 0 60px 0;
+}
+
+header h1 {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: var(--muted);
+  max-width: 650px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.skill {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 13px;
+  color: var(--muted);
+  margin: 5px;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.project p {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.project a {
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+@media(max-width:768px) {
+  header h1 { font-size: 26px; }
+}
+</style>
+</head>
+
+<body>
+
+<nav class="container">
+  <div><strong>Keshav Barapatre</strong></div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <span class="toggle-btn" onclick="toggleMode()">Toggle Mode</span>
+  </div>
+</nav>
+
+<header class="container">
+  <h1>Java Backend Developer | Spring Boot</h1>
+  <p>
+    BCA graduate with strong expertise in Java, Spring Boot, REST APIs, 
+    Data Structures & Algorithms, and database systems. 
+    Passionate about building scalable backend architectures and clean, maintainable code.
+  </p>
+
+  <a href="resume.pdf" class="btn" download>Download Resume</a>
+  <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" class="btn">GitHub</a>
+</header>
+
+<section id="about" class="container">
+  <h2>Professional Summary</h2>
+  <p style="color: var(--muted); max-width:700px;">
+    Detail-oriented BCA graduate specializing in backend development using Java and Spring Boot.
+    Experienced in developing RESTful APIs, implementing layered architecture,
+    and integrating MySQL databases. Strong problem-solving skills developed through
+    continuous Data Structures & Algorithms practice.
+  </p>
+</section>
+
+<section id="skills" class="container">
+  <h2>Technical Skills</h2>
+  <div>
+    <span class="skill">Java</span>
+    <span class="skill">Spring Boot</span>
+    <span class="skill">REST APIs</span>
+    <span class="skill">Data Structures</span>
+    <span class="skill">OOP</span>
+    <span class="skill">MySQL</span>
+    <span class="skill">JDBC</span>
+    <span class="skill">Git</span>
+    <span class="skill">HTML</span>
+    <span class="skill">CSS</span>
+    <span class="skill">JavaScript</span>
+    <span class="skill">Python (ML)</span>
+  </div>
+</section>
+
+<section id="projects" class="container">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Student Management System (Spring Boot)</h3>
+    <p>Developed RESTful CRUD APIs with layered architecture and MySQL integration.</p>
+    <p><strong>Tech:</strong> Java, Spring Boot, MySQL</p>
+    <a href="https://github.com/YOUR_GITHUB_USERNAME/student-management-system" target="_blank">GitHub</a>
+    <a href="https://your-live-demo-link.com" target="_blank">Live Demo</a>
+  </div>
+
+  <div class="project">
+    <h3>Machine Learning Mini Projects</h3>
+    <p>Implemented Linear Regression, Polynomial Regression, and PCA on Iris dataset.</p>
+    <p><strong>Tech:</strong> Python, Scikit-learn</p>
+    <a href="https://github.com/YOUR_GITHUB_USERNAME/ml-mini-projects" target="_blank">GitHub</a>
+  </div>
+
+</section>
+
+<section id="contact" class="container">
+  <h2>Contact</h2>
+  <p>Email: barapatrekeshav@gmail.com</p>
+  <p>GitHub: https://github.com/YOUR_GITHUB_USERNAME</p>
+  <p>LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN_PROFILE</p>
+</section>
+
+<footer>
+  © 2026 Keshav Barapatre
+</footer>
+
+<script>
+function toggleMode() {
+  document.body.classList.toggle("light-mode");
+}
+</script>
+
+</body>
+</html>
